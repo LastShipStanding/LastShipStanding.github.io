@@ -2,7 +2,8 @@
 var View2 = function (model) {
 	this.startButton = $("#view2_startBtn");
 	this.backButton = $("#view2_backBtn");
-	var keys = [["A","W","D"],["F","T","H"],["J","I","L"],["Numpad4","Numpad8","Numpad6"]];
+	//var keys = [["A","W","D"],["F","T","H"],["J","I","L"],["Numpad4","Numpad8","Numpad6"]];
+    var keys = [["A","W","D"],["F","T","H"],["J","I","L"],["Left","Up","Right"]];
 
 	///////////////////////////////////
 	//-------element 		Id's----------
