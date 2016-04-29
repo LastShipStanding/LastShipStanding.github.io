@@ -6,7 +6,7 @@ var bannerController = function (view, model) {
     var visible = true;
 
     model.getSounds().getBGAudio().loop = true;
-    model.getSounds().getBattleAudio.loop = true;
+    model.getSounds().getBattleAudio().loop = true;
     //variable to know if we should start playing music automatically after startView;
     var first = true;
 
